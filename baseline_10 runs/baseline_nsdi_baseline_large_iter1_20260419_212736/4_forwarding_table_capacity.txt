@@ -1,5 +1,0 @@
-=== Forwarding Table Capacity Summary ===
-Initial total flows : 52
-Mid UDP total flows : 802
-Mid TCP total flows : 1558
-Mid churn flows     : 9856

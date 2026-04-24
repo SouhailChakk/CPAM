@@ -1,5 +1,0 @@
-=== Flow Setup Rate (N1) ===
-Flow setups from controller log : 18943
-OVS flow delta during churn     : 252
-Flow setups/sec (log)           : 535.294
-Flow delta/sec (OVS snapshot)   : 7.121

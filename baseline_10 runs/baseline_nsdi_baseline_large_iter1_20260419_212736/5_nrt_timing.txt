@@ -1,6 +1,0 @@
-=== Network Repair Time (best-effort) ===
-Topology : Large (~500+ hosts, 48-port switches)
-Using bridge=agg1 port=agg1-eth1 for transient failure
-Failure window applied for ~2s
-Wall-clock event duration: 5966 ms
-40 packets transmitted, 40 received, 0% packet loss, time 7963ms
