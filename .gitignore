@@ -1,0 +1,21 @@
+# Per-pair raw iperf output files (bulk of repo size — summaries are kept)
+A_latency_h*.txt
+B_tcp_client_h*.txt
+B_tcp_server_h*.txt
+C_tcp_client_h*.txt
+C_tcp_server_h*.txt
+C_long_tcp_client_h*.txt
+C_long_tcp_server_h*.txt
+DE_udp_client_h*.txt
+DE_udp_server_h*.txt
+DE_udp_debug_h*.txt
+churn_client_h*.txt
+client_h*_long.txt
+server_h*_long.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Zip archives
+*.zip

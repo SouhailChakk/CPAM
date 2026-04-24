@@ -1,0 +1,102 @@
+==========================================================
+=== FINAL SUMMARY — ALL METRICS ===
+==========================================================
+Topology  : Large (~500+ hosts, 48-port switches)
+Pairs     : 252
+Duration  : 120s
+
+--- [1] Topology Discovery ---
+Discovery elapsed   : 15.125s
+Switches discovered : 23
+Directed links      : 44
+Hosts at completion : 0
+
+--- [A] ICMP Latency ---
+Topology mean RTT : .580 ms  (across 252 pairs)
+
+--- [B] TCP Throughput ---
+  Count  : 252 pairs
+  Mean   : 537.770 Mbits/sec
+  Std Dev: 45.350 Mbits/sec
+  p50    : 535.000 Mbits/sec
+  p95    : 601.000 Mbits/sec
+  p99    : 663.000 Mbits/sec
+
+--- [C] TCP Session Continuity ---
+Flow     : h1 -> h253 (10.0.0.253)
+RESULT   : survived for 240s
+
+--- [D+E] UDP Jitter + Loss ---
+=== UDP Jitter + Loss Summary ===
+Topology : Large (~500+ hosts, 48-port switches)   Pairs used: 252
+Server-summary successes : 252 / 252
+Mean jitter (ms): 7.697615
+Mean loss (%): 0.000000
+NO_SERVER_SUMMARY : 0
+NO_SUMMARY        : 0
+CLIENT_ERROR      : 0
+ACK_MISSED        : 0
+
+--- [F] Controller Overhead ---
+Samples              : 1160
+Average CPU (%)      : 52020.000
+Peak CPU (%)         : 52020.000
+Average RSS (KB)     : 0.000
+
+--- [2] Async Message Rate ---
+Elapsed         : 34.344 s
+Approx async rate: 146.750 events/s
+
+--- [3+N2] RPPT Summary ---
+  Count  : 42004
+  Mean   : 1.492 ms
+  Std Dev: 1.789 ms
+  p50    : 1.097 ms
+  p95    : 4.298 ms
+  p99    : 7.144 ms
+
+--- [4] Forwarding Table ---
+Initial total flows : 52
+Mid UDP total flows : 802
+Mid TCP total flows : 1558
+Mid churn flows     : 7936
+
+--- [5] NRT ---
+Failure window applied for ~2s
+Wall-clock event duration: 5985 ms
+40 packets transmitted, 40 received, 0% packet loss, time 7988ms
+
+--- [N1] Flow Setup Rate ---
+Flow setups from controller log : 17834
+OVS flow delta during churn     : 246
+Flow setups/sec (log)           : 519.275
+Flow delta/sec (OVS snapshot)   : 7.162
+
+--- [N3] RPPT Under Load ---
+  Count  : 35668
+  Mean   : 1.504 ms
+  Std Dev: 1.724 ms
+  p50    : 1.118 ms
+  p95    : 4.323 ms
+  p99    : 6.538 ms
+
+--- [N4] Flow Setup Latency ---
+FLOW_SETUP events this run: 21003
+  Count  : 21003
+  Mean   : 1.492 ms
+  Std Dev: 1.789 ms
+  p50    : 1.097 ms
+  p95    : 4.298 ms
+  p99    : 7.144 ms
+
+--- [N5] Scalability ---
+Topology         : Large (~500+ hosts, 48-port switches)
+Hosts discovered : 504
+Pairs            : 252
+Churn attempts   : 5040
+Initial flows    : 52
+Mid-churn flows  : 7936
+RPPT samples     : 42004
+Avg path length  : 2.79 switches
+Avg flow mods    : 5.59 per setup
+==========================================================

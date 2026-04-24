@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 compare_metrics.py --baseline-dir 'baseline_10 runs' --mtd-dir 'MTD_10 runs' --output-dir plots)",
+      "Bash(pip install *)",
+      "Bash(python3 plot_baseline_runs.py)",
+      "Bash(python3 *)",
+      "Bash(sed -n '854,900p' /home/souhail/Desktop/mtd/mtd.py)",
+      "Bash(sed -n '294,320p' /home/souhail/Desktop/mtd/mtd.py)",
+      "Bash(sed -n '410,430p' /home/souhail/Desktop/mtd/mtd.py)",
+      "Bash(bash -n /home/souhail/Desktop/mtd/benchmark_tcp.sh)",
+      "Bash(xargs -I{} basename {})"
+    ]
+  }
+}

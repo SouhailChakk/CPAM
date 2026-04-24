@@ -1,0 +1,6 @@
+=== Controller Overhead Summary ===
+Samples              : 1160
+Average CPU (%)      : 51943.707
+Peak CPU (%)         : 52020.000
+Average RSS (KB)     : 0.000
+Average RSS (MB)     : 0.000

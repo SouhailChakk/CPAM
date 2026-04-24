@@ -1,0 +1,52 @@
+=== RFC 8456 §5.2.3 Forwarding Table Capacity ===
+Topology : Large (~500+ hosts, 48-port switches)
+Timestamp: 2026-04-19T00:23:52,080951494-07:00
+
+  agg1 : 1 flow entries
+  core1 : 1 flow entries
+  edge1 : 1 flow entries
+  edge10 : 1 flow entries
+  edge11 : 1 flow entries
+  edge12 : 1 flow entries
+  edge13 : 1 flow entries
+  edge14 : 1 flow entries
+  edge15 : 1 flow entries
+  edge16 : 1 flow entries
+  edge17 : 1 flow entries
+  edge18 : 1 flow entries
+  edge19 : 1 flow entries
+  edge2 : 1 flow entries
+  edge20 : 1 flow entries
+  edge21 : 1 flow entries
+  edge3 : 1 flow entries
+  edge4 : 1 flow entries
+  edge5 : 1 flow entries
+  edge6 : 1 flow entries
+  edge7 : 1 flow entries
+  edge8 : 1 flow entries
+  edge9 : 1 flow entries
+
+  Total across all switches: 23
+
+Timeline snapshots:
+  during_ping : 680 flows
+  initial : 27 flows
+  long_tcp_120s : 23 flows
+  long_tcp_150s : 23 flows
+  long_tcp_180s : 23 flows
+  long_tcp_210s : 23 flows
+  long_tcp_30s : 23 flows
+  long_tcp_60s : 23 flows
+  long_tcp_90s : 23 flows
+  mid_churn : 7105 flows
+  mid_tcp : 483 flows
+  mid_udp : 275 flows
+  post_churn : 11932 flows
+  post_tcp : 59 flows
+  post_udp : 275 flows
+  pre_churn : 23 flows
+  pre_long_tcp : 27 flows
+  pre_tcp : 23 flows
+  pre_udp : 23 flows
+
+  Peak flow count this run: 11932

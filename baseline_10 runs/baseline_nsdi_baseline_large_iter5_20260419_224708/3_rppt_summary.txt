@@ -1,0 +1,10 @@
+=== RPPT Summary (RFC 8456 §5.1.4 + N2 percentiles) ===
+  Count  : 37006
+  Mean   : 1.588 ms
+  Std Dev: 1.797 ms
+  95% CI : +/-0.018 ms
+  Min    : 0.243 ms
+  Max    : 29.939 ms
+  p50    : 1.132 ms
+  p95    : 5.104 ms
+  p99    : 8.703 ms

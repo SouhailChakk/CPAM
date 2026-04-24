@@ -1,0 +1,9 @@
+=== TCP Session Continuity Summary ===
+Topology : Large (~500+ hosts, 48-port switches)
+Flow     : h1 -> h253 (10.0.0.253)
+RESULT   : survived for 240s
+[  5] 236.0-237.0 sec  8.55 GBytes  73.4 Gbits/sec
+[  5] 237.0-238.0 sec  8.63 GBytes  74.1 Gbits/sec
+[  5] 238.0-239.0 sec  7.83 GBytes  67.2 Gbits/sec
+[  5] 239.0-240.0 sec  7.12 GBytes  61.1 Gbits/sec
+[  5]  0.0-240.0 sec  1.95 TBytes  71.5 Gbits/sec
