@@ -97,7 +97,7 @@ sudo bash benchmark_baseline.sh 120 baseline_large /var/log/ryu.log large 10
 ### Run CPAM benchmark (10 iterations)
 
 ```bash
-sudo bash benchmark_nsdi.sh 120 baseline_large /var/log/ryu.log large 10
+sudo bash benchmark_test.sh 120 baseline_large /var/log/ryu.log large 10
 ```
 
 ### Generate comparison plots
