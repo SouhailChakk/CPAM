@@ -17,9 +17,8 @@ CPAM is a Moving Target Defense (MTD) SDN controller built on top of the Ryu fra
 ```
 .
 ├── Controllers
-│   ├── test.py                   # CPAM controller (MTD, VIP rotation)
-│   ├── baseline.py               # Baseline Ryu controller (no MTD, BFS routing)
-│   └── mtd.py                    # Earlier controller prototype
+│   ├── mtd.py                   # CPAM controller (MTD, VIP rotation)
+│   └── baseline.py               # Baseline Ryu controller (no MTD, BFS routing)
 │
 ├── Topology
 │   ├── industry_topo.py          # Large topology (~504 hosts, 48-port switches)
@@ -27,13 +26,8 @@ CPAM is a Moving Target Defense (MTD) SDN controller built on top of the Ryu fra
 │
 ├── Benchmark Scripts
 │   ├── benchmark_test.sh         # Full benchmark for CPAM (all metrics)
-│   ├── benchmark_baseline.sh     # Full benchmark for baseline (all metrics)
-│   └── benchmark_tcp.sh          # Dedicated TCP benchmark (safe/long/burst modes)
+│   └── benchmark_baseline.sh     # Full benchmark for baseline (all metrics)
 │
-├── Analysis Scripts
-│   ├── compare_metrics.py        # Baseline vs CPAM comparison plots
-│   ├── plot_baseline_runs.py     # Per-run plots for baseline (10 iterations)
-│   └── plot_mtd_runs.py          # Per-run plots for CPAM (10 iterations)
 │
 ├── Results
 │   ├── baseline_10 runs/         # 10 baseline benchmark iterations
@@ -43,8 +37,7 @@ CPAM is a Moving Target Defense (MTD) SDN controller built on top of the Ryu fra
 │   ├── tcp_10_runs/              # 10 dedicated TCP benchmark runs (CPAM, long mode)
 │   │   └── tcp_bench_baseline_large_iter{1-10}/
 │   └── plots/                    # Generated comparison plots (PNG + PDF)
-│
-└── PAPER_CONTEXT.md              # Full research context and results summary
+
 ```
 
 ---
