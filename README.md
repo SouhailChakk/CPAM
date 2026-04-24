@@ -58,7 +58,7 @@ CPAM is a Moving Target Defense (MTD) SDN controller built on top of the Ryu fra
 
 ## Controllers
 
-### CPAM (`test.py`)
+### CPAM (`mtd.py`)
 - Assigns each host a Virtual IP (VIP) from a pool of 6,000 addresses
 - Rotates all VIPs every **60 seconds** (configurable via `ROTATE_INTERVAL`)
 - Implements NAT translation: client connects to VIP → controller rewrites to real IP
@@ -82,7 +82,7 @@ sudo apt-get install -y mininet openvswitch-switch python3-pip sysstat iperf
 pip3 install ryu
 
 # Start the CPAM controller
-ryu-manager test.py
+ryu-manager mtd.py
 
 # Or start the baseline controller
 ryu-manager baseline.py
@@ -97,17 +97,7 @@ sudo bash benchmark_baseline.sh 120 baseline_large /var/log/ryu.log large 10
 ### Run CPAM benchmark (10 iterations)
 
 ```bash
-sudo bash benchmark_test.sh 120 baseline_large /var/log/ryu.log large 10
-```
-
-### Run dedicated TCP benchmark (10 iterations)
-
-```bash
-# Long mode — 240s per run, spans multiple VIP rotations
-sudo bash benchmark_tcp.sh --mode long --rotate-interval 60 --label mtd_large --iterations 10
-
-# Safe mode — syncs to rotation cycle, zero rotations mid-test
-sudo bash benchmark_tcp.sh --mode safe --rotate-interval 60 --label mtd_large --iterations 10
+sudo bash benchmark_nsdi.sh 120 baseline_large /var/log/ryu.log large 10
 ```
 
 ### Generate comparison plots
