@@ -1,8 +1,0 @@
-=== Controller CPU + Memory Overhead ===
-Topology : Large (~500+ hosts, 48-port switches)
-
-  Average CPU : 0.54%
-  Max CPU     : 9.00%
-  Average RSS : 83985 kB
-
-Full pidstat log: F_controller_pidstat.txt
