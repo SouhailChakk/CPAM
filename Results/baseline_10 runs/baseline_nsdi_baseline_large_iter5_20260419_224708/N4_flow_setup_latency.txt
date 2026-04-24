@@ -1,0 +1,19 @@
+=== Flow Setup Latency (N4) ===
+Topology : Large (~500+ hosts, 48-port switches)
+Source   : Ryu log token  FLOW_SETUP: key=(...) pathsw=N flowmods=N elapsed_ms=X.XXX
+
+FLOW_SETUP events this run: 18504
+
+Flow setup elapsed_ms statistics:
+  Count  : 18504
+  Mean   : 1.588 ms
+  Std Dev: 1.797 ms
+  95% CI : +/-0.026 ms
+  Min    : 0.243 ms
+  Max    : 29.939 ms
+  p50    : 1.132 ms
+  p95    : 5.104 ms
+  p99    : 8.703 ms
+
+Avg path length (pathsw)  : 2.75 switches
+Avg flow mods per setup   : 5.49

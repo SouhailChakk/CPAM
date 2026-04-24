@@ -1,0 +1,117 @@
+=== OVS Snapshot: pre_churn @ 2026-04-19T22:58:59,205784575-07:00 ===
+--- agg1 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.315s, table=0, n_packets=4089, n_bytes=245340, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.363s, table=0, n_packets=1513770, n_bytes=33608107804, priority=0 actions=CONTROLLER:65535
+agg1 flow_count=2
+--- core1 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.317s, table=0, n_packets=188, n_bytes=11280, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.365s, table=0, n_packets=365066, n_bytes=21971533, priority=0 actions=CONTROLLER:65535
+core1 flow_count=2
+--- edge1 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.322s, table=0, n_packets=185, n_bytes=11100, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.370s, table=0, n_packets=908594, n_bytes=2264069158, priority=0 actions=CONTROLLER:65535
+edge1 flow_count=2
+--- edge10 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.326s, table=0, n_packets=187, n_bytes=11220, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.375s, table=0, n_packets=714400, n_bytes=246679152, priority=0 actions=CONTROLLER:65535
+edge10 flow_count=2
+--- edge11 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.337s, table=0, n_packets=185, n_bytes=11100, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.385s, table=0, n_packets=1609736, n_bytes=33933692324, priority=0 actions=CONTROLLER:65535
+edge11 flow_count=2
+--- edge12 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.349s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.393s, table=0, n_packets=683978, n_bytes=992534392, priority=0 actions=CONTROLLER:65535
+edge12 flow_count=2
+--- edge13 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.349s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.396s, table=0, n_packets=691165, n_bytes=1668927058, priority=0 actions=CONTROLLER:65535
+edge13 flow_count=2
+--- edge14 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.351s, table=0, n_packets=185, n_bytes=11100, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.399s, table=0, n_packets=511478, n_bytes=595574754, priority=0 actions=CONTROLLER:65535
+edge14 flow_count=2
+--- edge15 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.361s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.406s, table=0, n_packets=411393, n_bytes=1626670660, priority=0 actions=CONTROLLER:65535
+edge15 flow_count=2
+--- edge16 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.359s, table=0, n_packets=188, n_bytes=11280, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.407s, table=0, n_packets=680515, n_bytes=2066852034, priority=0 actions=CONTROLLER:65535
+edge16 flow_count=2
+--- edge17 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.366s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.413s, table=0, n_packets=983994, n_bytes=11134310920, priority=0 actions=CONTROLLER:65535
+edge17 flow_count=2
+--- edge18 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.373s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.420s, table=0, n_packets=718745, n_bytes=4333738310, priority=0 actions=CONTROLLER:65535
+edge18 flow_count=2
+--- edge19 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.377s, table=0, n_packets=191, n_bytes=11460, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.424s, table=0, n_packets=394122, n_bytes=1109240676, priority=0 actions=CONTROLLER:65535
+edge19 flow_count=2
+--- edge2 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.387s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.432s, table=0, n_packets=777810, n_bytes=1539694120, priority=0 actions=CONTROLLER:65535
+edge2 flow_count=2
+--- edge20 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.385s, table=0, n_packets=185, n_bytes=11100, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.433s, table=0, n_packets=430659, n_bytes=1579995442, priority=0 actions=CONTROLLER:65535
+edge20 flow_count=2
+--- edge21 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.398s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.442s, table=0, n_packets=1241930, n_bytes=27922775072, priority=0 actions=CONTROLLER:65535
+edge21 flow_count=2
+--- edge3 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.393s, table=0, n_packets=185, n_bytes=11100, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.442s, table=0, n_packets=715416, n_bytes=619239718, priority=0 actions=CONTROLLER:65535
+edge3 flow_count=2
+--- edge4 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.397s, table=0, n_packets=185, n_bytes=11100, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.447s, table=0, n_packets=666738, n_bytes=549333928, priority=0 actions=CONTROLLER:65535
+edge4 flow_count=2
+--- edge5 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.409s, table=0, n_packets=188, n_bytes=11280, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.455s, table=0, n_packets=532224, n_bytes=1427915598, priority=0 actions=CONTROLLER:65535
+edge5 flow_count=2
+--- edge6 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.420s, table=0, n_packets=192, n_bytes=11520, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.464s, table=0, n_packets=439029, n_bytes=2268255572, priority=0 actions=CONTROLLER:65535
+edge6 flow_count=2
+--- edge7 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.423s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.467s, table=0, n_packets=712006, n_bytes=3946608318, priority=0 actions=CONTROLLER:65535
+edge7 flow_count=2
+--- edge8 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.426s, table=0, n_packets=186, n_bytes=11160, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.472s, table=0, n_packets=522930, n_bytes=799002660, priority=0 actions=CONTROLLER:65535
+edge8 flow_count=2
+--- edge9 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5578.428s, table=0, n_packets=185, n_bytes=11100, priority=65535,dl_dst=01:80:c2:00:00:0e,dl_type=0x88cc actions=CONTROLLER:65535
+ cookie=0x0, duration=5578.477s, table=0, n_packets=385346, n_bytes=361769934, priority=0 actions=CONTROLLER:65535
+edge9 flow_count=2
+TOTAL_FLOWS=46

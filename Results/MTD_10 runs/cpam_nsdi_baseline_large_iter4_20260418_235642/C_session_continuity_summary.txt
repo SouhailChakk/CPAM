@@ -1,0 +1,7 @@
+=== TCP Session Continuity Summary ===
+Topology         : Large (~500+ hosts, 48-port switches)
+Sessions total   : 252
+Sessions broken  : 0
+Sessions survived: 252
+Survival rate    : 100.0%
+RESULT: PASS — all sessions survived VIP rotations

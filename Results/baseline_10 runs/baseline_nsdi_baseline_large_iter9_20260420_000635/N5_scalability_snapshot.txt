@@ -1,0 +1,10 @@
+=== Scalability Snapshot (N5) ===
+Topology         : Large (~500+ hosts, 48-port switches)
+Hosts discovered : 504
+Pairs            : 252
+Churn attempts   : 5040
+Initial flows    : 52
+Mid-churn flows  : 7936
+RPPT samples     : 42004
+Avg path length  : 2.79 switches
+Avg flow mods    : 5.59 per setup

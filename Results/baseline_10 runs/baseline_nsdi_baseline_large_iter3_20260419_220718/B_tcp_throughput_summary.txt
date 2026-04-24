@@ -1,0 +1,12 @@
+=== TCP Throughput Summary ===
+Topology : Large (~500+ hosts, 48-port switches)   Pairs: 252
+
+  Count  : 252 pairs
+  Mean   : 534.778 Mbits/sec
+  Std Dev: 45.214 Mbits/sec
+  95% CI : +/-5.582 Mbits/sec
+  Min    : 430.000 Mbits/sec
+  Max    : 784.000 Mbits/sec
+  p50    : 532.000 Mbits/sec
+  p95    : 599.000 Mbits/sec
+  p99    : 667.000 Mbits/sec

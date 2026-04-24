@@ -1,0 +1,9 @@
+=== UDP Jitter + Loss Summary ===
+Topology : Large (~500+ hosts, 48-port switches)   Pairs used: 252
+Server-summary successes : 252 / 252
+Mean jitter (ms): 7.465770
+Mean loss (%): 0.002286
+NO_SERVER_SUMMARY : 0
+NO_SUMMARY        : 0
+CLIENT_ERROR      : 0
+ACK_MISSED        : 0

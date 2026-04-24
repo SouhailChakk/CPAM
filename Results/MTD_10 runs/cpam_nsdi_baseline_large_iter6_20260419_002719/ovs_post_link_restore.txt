@@ -1,0 +1,96 @@
+=== OVS Snapshot: post_link_restore @ 2026-04-19T00:40:43,629868234-07:00 ===
+--- agg1 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.389s, table=0, n_packets=6047408, n_bytes=7981604598, send_flow_rem priority=0 actions=CONTROLLER:65535
+agg1 flow_count=1
+--- core1 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.391s, table=0, n_packets=186770, n_bytes=13820741, send_flow_rem priority=0 actions=CONTROLLER:65535
+core1 flow_count=1
+--- edge1 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0xa00000000a000d3b, duration=30.275s, table=0, n_packets=34016, n_bytes=99563688, idle_timeout=15, send_flow_rem priority=100,tcp,in_port=2,nw_src=10.0.0.1,nw_dst=10.0.13.26,tp_src=36364,tp_dst=5001 actions=set_field:10.0.13.59->ip_src,set_field:10.0.0.253->ip_dst,set_field:02:a0:55:0d:3b:36->eth_src,set_field:00:00:00:00:00:fd->eth_dst,output:1
+ cookie=0x0, duration=5612.397s, table=0, n_packets=745041, n_bytes=52765183, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge1 flow_count=2
+--- edge10 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.401s, table=0, n_packets=516940, n_bytes=37732857, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge10 flow_count=1
+--- edge11 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0xa00000000a000d1a, duration=30.283s, table=0, n_packets=33864, n_bytes=2301152, idle_timeout=15, send_flow_rem priority=100,tcp,in_port=14,nw_src=10.0.0.253,nw_dst=10.0.13.59,tp_src=5001,tp_dst=36364 actions=set_field:10.0.13.26->ip_src,set_field:10.0.0.1->ip_dst,set_field:02:a0:55:0d:1a:17->eth_src,set_field:00:00:00:00:00:01->eth_dst,output:1
+ cookie=0x0, duration=5612.409s, table=0, n_packets=1210531, n_bytes=1365116061, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge11 flow_count=2
+--- edge12 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.416s, table=0, n_packets=754838, n_bytes=818106123, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge12 flow_count=1
+--- edge13 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.419s, table=0, n_packets=757369, n_bytes=833854733, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge13 flow_count=1
+--- edge14 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.423s, table=0, n_packets=562806, n_bytes=538149657, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge14 flow_count=1
+--- edge15 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.431s, table=0, n_packets=572619, n_bytes=551839937, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge15 flow_count=1
+--- edge16 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.432s, table=0, n_packets=441561, n_bytes=362428179, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge16 flow_count=1
+--- edge17 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.440s, table=0, n_packets=464430, n_bytes=393823027, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge17 flow_count=1
+--- edge18 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.445s, table=0, n_packets=436342, n_bytes=354737453, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge18 flow_count=1
+--- edge19 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.448s, table=0, n_packets=504646, n_bytes=456476083, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge19 flow_count=1
+--- edge2 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.455s, table=0, n_packets=420707, n_bytes=40570491, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge2 flow_count=1
+--- edge20 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.456s, table=0, n_packets=857658, n_bytes=990239369, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge20 flow_count=1
+--- edge21 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.466s, table=0, n_packets=709789, n_bytes=764565365, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge21 flow_count=1
+--- edge3 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.466s, table=0, n_packets=418296, n_bytes=30014153, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge3 flow_count=1
+--- edge4 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.470s, table=0, n_packets=363975, n_bytes=27440807, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge4 flow_count=1
+--- edge5 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.479s, table=0, n_packets=289868, n_bytes=21340419, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge5 flow_count=1
+--- edge6 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.486s, table=0, n_packets=259114, n_bytes=19677823, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge6 flow_count=1
+--- edge7 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.491s, table=0, n_packets=268008, n_bytes=20194539, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge7 flow_count=1
+--- edge8 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.493s, table=0, n_packets=302154, n_bytes=22489065, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge8 flow_count=1
+--- edge9 ---
+OFPST_FLOW reply (OF1.3) (xid=0x2):
+ cookie=0x0, duration=5612.499s, table=0, n_packets=328831, n_bytes=25344345, send_flow_rem priority=0 actions=CONTROLLER:65535
+edge9 flow_count=1
+TOTAL_FLOWS=25

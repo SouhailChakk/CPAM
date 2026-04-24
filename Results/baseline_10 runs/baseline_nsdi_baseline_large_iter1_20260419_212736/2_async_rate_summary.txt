@@ -1,0 +1,7 @@
+=== Async Message Rate / Churn Summary ===
+Topology        : Large (~500+ hosts, 48-port switches)
+Pairs           : 252
+Conns/pair      : 20
+Total attempts  : 5040
+Elapsed         : 24.693 s
+Approx async rate: 204.106 events/s

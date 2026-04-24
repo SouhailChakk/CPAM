@@ -1,0 +1,13 @@
+=== [N4] VIP Reclamation Lag ===
+Topology : Small (~16 hosts, 4-port switches)
+Measures : time from session end to VIP removed from NAT table
+Source   : Ryu log token  VIP_RECLAIMED: vip=X lived_ms=X
+
+VIP reclamation events: 0
+0
+
+No VIP_RECLAIMED events found.
+
+Add to your Ryu controller where VIP is removed from NAT table:
+  self.logger.info("VIP_RECLAIMED: vip=%s lived_ms=%.3f",
+                   vip, (time.time() - session_end_time) * 1000)
